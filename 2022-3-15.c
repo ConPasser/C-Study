@@ -4,12 +4,12 @@
 
 int main()
 {
-	//printf("ÄãºÃÊÀ½ç\n");
-	// ×Ö·û´®
+	//printf("ä½ å¥½ä¸–ç•Œ\n");
+	// å­—ç¬¦ä¸²
 
-	char arr1[] = "abc";  //Êı×é
+	char arr1[] = "abc";  //æ•°ç»„
 	char arr2[] = { 'a', 'b', 'c' };
-	//×Ö·û´®µÄ½áÊø±êÖ¾ "\0"
+	//å­—ç¬¦ä¸²çš„ç»“æŸæ ‡å¿— "\0"
 	char arr3[] = { 'a', 'b', 'c', 0 }; 
 	printf("%s\n",arr1);
 	printf("%s\n",arr2);
@@ -18,13 +18,13 @@ int main()
 	printf("%d\n", strlen(arr1));
 	printf("%d\n", strlen(arr2));
 
-	//×ªÒå×Ö·û
+	//è½¬ä¹‰å­—ç¬¦
 	printf("abcn");
-	printf("abc\n");  //»»ĞĞ
-	printf("C:\\Users\\ÕÔ½¡Ñø\\Desktop\\Èí¼ş¹¤³Ì\\Í¼Æ¬\n");
-	// \t - Ë®Æ½ÖÆ±í·û
+	printf("abc\n");  //æ¢è¡Œ
+	printf("C:\\Users\\èµµå¥å…»\\Desktop\\è½¯ä»¶å·¥ç¨‹\\å›¾ç‰‡\n");
+	// \t - æ°´å¹³åˆ¶è¡¨ç¬¦
 	
-  	printf("¿¿¿¿");
+  	printf("ä½ å¥½ä¸–ç•Œï¼Œæˆ‘çˆ±ä½ ");
 
 	return 0;
 }
