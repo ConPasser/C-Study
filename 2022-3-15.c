@@ -26,6 +26,6 @@ int main()
 	
   	printf("你好世界，我爱你");
 	printf("hallo");
-
+        printf("nihao");
 	return 0;
 }
