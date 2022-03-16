@@ -25,6 +25,7 @@ int main()
 	// \t - 水平制表符
 	
   	printf("你好世界，我爱你");
+	printf("hallo");
 
 	return 0;
 }
